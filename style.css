@@ -108,3 +108,35 @@ body {
 .slider {
 	padding-top: 30px;
 }
+
+.block2 {
+	background: url(img/fon.jpg) no-repeat;
+	background-size: cover;
+	height: 700px;
+	color: #fff;
+}
+
+.block2 h2 {
+	margin-left: 30%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.block2 h3 {
+	font-size: 18px;
+	padding-top: 30px;
+}
+
+.block2 hr {
+	border-top: 1px solid #fff;
+	width: 120%;
+}
+
+.filtr {
+	background: rgba(52, 159, 210, 0.8);
+    position: absolute;
+    width: 80%;
+    height: inherit;
+    -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+}
