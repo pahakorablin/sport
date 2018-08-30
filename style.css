@@ -8,6 +8,11 @@ body {
 	font-size: 16px;
 }
 
+.conteiner {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
 .header {
 	background: #2990af;
 	height: 600px;
@@ -15,7 +20,7 @@ body {
 }
 
 .header h1 {
-	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	font-weight: 600;
 	font-size: 80px;
@@ -69,7 +74,37 @@ body {
     max-height: 590px;
 }
 
-.conteiner {
-	max-width: 1020px;
-	margin: 0 auto;
+.block1 {
+	background: #fff;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.block1 h2 {
+	color: #2990af;
+	text-align: center;
+	font-size: 40px;
+}
+
+.target {
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.target img {
+	width: 35%;
+	height: auto;
+	padding: 10px;
+}
+
+.target p {
+	padding-top: 10px;
+	color: #185060;
+}
+
+.slider {
+	padding-top: 30px;
 }
