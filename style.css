@@ -76,8 +76,8 @@ body {
 
 .block1 {
 	background: #fff;
-	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	overflow: hidden;
 }
 
@@ -184,9 +184,29 @@ body {
 
 .block4 {
 	background: #409bb6;
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-bottom:50px;
 }
+
+
+
+.block4 .col-md-4 { 
+background: url(img/nastya_w.png) no-repeat 50% 50%;
+background-size: auto 420px;  
+height: 420px;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+-webkit-transition: all 1s linear;
+transition: all 1s linear;
+cursor: pointer;
+}
+
+.block4 .col-md-4:hover { 
+background: url(img/nastya.png) no-repeat 50% 50%;
+background-size: auto 420px;
+} 
+
+
 
 .block4 h2 {
 		color: #fff;
@@ -194,9 +214,20 @@ body {
 		padding-bottom: 40px;
 }
 
-.form-control {
+.block4 img {
+	height: 420px;
+}
+
+.block4 img:hover {
+  opacity:0;
+
+  filter:alpha (opacity=0);
+}
+
+.form-control, .btn {
 	border-radius:0;
 }
+
 
 footer {
 	padding-top: 30px;
