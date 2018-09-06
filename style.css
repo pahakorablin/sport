@@ -141,6 +141,11 @@ body {
     clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
 }
 
+
+.block3 {
+	padding-bottom: 50px;
+}
+
 .block3 .row {
 	padding-top: 40px;
 }
@@ -183,7 +188,8 @@ body {
 }
 
 .block4 {
-	background: #409bb6;
+	background: url(img/fon2.jpg) no-repeat 50% 50%;
+	background-size: cover;
 	padding-top: 50px;
 	padding-bottom:50px;
 }
@@ -206,8 +212,6 @@ background: url(img/nastya.png) no-repeat 50% 50%;
 background-size: auto 420px;
 } 
 
-
-
 .block4 h2 {
 		color: #fff;
 		text-align: center;
@@ -228,9 +232,53 @@ background-size: auto 420px;
 	border-radius:0;
 }
 
+.block5 {
+	background: #fff;
+	padding-top: 50px;
+}
+
+.block5 h2 {
+	color: #2990af;
+	padding-bottom: 30px;
+}
+
+.block5 h3 {
+	color: #2990af;
+}
+
+.lenta {
+	background: #2990af;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.lenta h3 {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.lenta img {
+	float: right;
+	height: 320px;
+	padding: 0 20px;
+	margin-top: -300px;
+}
+
+.block6 {
+	background: #ccc;
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+.block6 h2 {
+	text-align: center;
+	color: #fff;
+}
 
 footer {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: #2990af;
+	overflow: hidden;
 }
