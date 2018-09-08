@@ -245,6 +245,24 @@ a:hover {
 	color: #2990af;
 }
 
+.certif {
+	overflow: hidden;
+}
+
+.certif img {
+	width: 30%;
+	float: left;
+	margin: 14px;
+	margin-left: 6px;
+	cursor: pointer;
+} 
+
+.certif img:hover {
+	-webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,1);
+	box-shadow: 5px 5px 20px 0px rgba(0,0,0,1);
+}
+
 .lenta {
 	background: #2990af;
 	padding-top: 20px;
