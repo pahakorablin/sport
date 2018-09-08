@@ -8,6 +8,14 @@ body {
 	font-size: 16px;
 }
 
+a {
+	color: #2990af;
+}
+
+a:hover {
+	color: #409bb6;
+}
+
 .conteiner {
 	max-width: 1020px;
 	margin: 0 auto;
@@ -28,6 +36,7 @@ body {
     transform: scaley(2);
     padding-top: 10px;
 }
+
 .short {
 	background: #409bb6;
 	padding-bottom: 10px;
@@ -41,17 +50,6 @@ body {
 	margin-bottom: 0;
 	color: #185060;
 }
-
-.info {
-	float: left;
-}
-
-.info-tel {
-	float: right;
-	text-align: right;
-	font-size: 30px;
-}
-
 
 .grad-line {
 	background-image: linear-gradient(to right, #2990af,#4aabc4,#2990af);
@@ -141,7 +139,6 @@ body {
     clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
 }
 
-
 .block3 {
 	padding-bottom: 50px;
 }
@@ -169,7 +166,6 @@ body {
 	color: #185060;
 }
 
-
 .circle {
     position: absolute;
     width: 50px;
@@ -195,27 +191,27 @@ body {
 }
 
 .img-girl { 
-background: url(img/nastya_w.png) no-repeat 50% 50%;
-background-size: auto 420px;
-width: 220px;
-height: 420px;
--moz-transition: all 1s linear;
--o-transition: all 1s linear;
--webkit-transition: all 1s linear;
-transition: all 1s linear;
-cursor: pointer;
-margin: 0 auto;
+	background: url(img/nastya_w.png) no-repeat 50% 50%;
+	background-size: auto 420px;
+	width: 220px;
+	height: 420px;
+	cursor: pointer;
+	margin: 0 auto;
+	transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
 }
 
 .img-girl:hover { 
-background: url(img/nastya.png) no-repeat 50% 50%;
-background-size: auto 420px;
+	background: url(img/nastya.png) no-repeat 50% 50%;
+	background-size: auto 420px;
 } 
 
 .block4 h2 {
-		color: #fff;
-		text-align: center;
-		padding-bottom: 40px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 .block4 img {
@@ -223,9 +219,12 @@ background-size: auto 420px;
 }
 
 .block4 img:hover {
-  opacity:0;
+	opacity:0;
+	filter:alpha (opacity=0);
+}
 
-  filter:alpha (opacity=0);
+.block4 .btn-block {
+	padding: 10px 0;
 }
 
 .form-control, .btn {
@@ -263,22 +262,89 @@ background-size: auto 420px;
 	height: 320px;
 	padding: 0 20px;
 	margin-top: -300px;
+	cursor: pointer;
+}
+
+.trainer {
+	float: right;
+	height: 320px;
+	width: 280px;
+	padding: 0 20px;
+	margin-top: -300px;
+	cursor: pointer;
+	background: url(img/trainer.png) no-repeat 50% 50%;
+	background-size: auto 320px;
+	transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+}
+
+.trainer:hover {
+	background: url(img/trainer_h.png) no-repeat 50% 50%;
+	background-size: auto 320px;
 }
 
 .block6 {
-	background: #ccc;
+	background: url(img/fon3.jpg);
+	background-size: cover;
 	padding-top: 50px;
 	padding-bottom:50px;
 }
 
-.block6 h2 {
+.block6 h2, .block6 h3  {
 	text-align: center;
 	color: #fff;
 }
 
+.block6 h3 {
+	font-size: 18px;
+}
+
+.reviews {
+    margin-top: 40px;
+	overflow: hidden;
+}
+
+.review {
+	width: 48%;
+	background: #fff;
+	padding: 16px;
+	margin:10px;
+	float: left;
+}
+
+.review_name{
+	color: #2990af;
+	font-size: 20px;
+}
+
+.review_text {
+	color: #185060;
+}
+
 footer {
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	color: #2990af;
 	overflow: hidden;
+}
+
+.info {
+	float: left;
+}
+
+.social {
+	text-align: center;
+}
+
+.social i {
+	font-size: 48px !important;
+	margin: 0 6px;
+}
+
+.info-tel {
+	float: right;
+	text-align: right;
+	font-size: 30px;
 }
