@@ -1,0 +1,22 @@
+@media only screen and (max-width: 900px) {
+.slide {top:130px; max-height:470px;}
+.header h1 {font-size:60px;}
+.grad-line p {font-size:14px;}
+}
+
+@media only screen and (max-width: 600px) {
+	.header {padding-top:20px; height:530px;}
+	.short p {padding:0 6px;}
+	.info {font-size:14px;}
+	.info-tel {font-size:24px;}
+	.header h1 {font-size:46px;}
+	.slide {top:100px; max-height:430px;}
+}
+
+@media only screen and (max-width: 460px) {
+	.header {height:500px; padding-top:10px;}
+	.header h1 {font-size:40px;}
+	.short p {width:100%; padding-bottom: 4px; text-align:center;}
+	.slide {top:120px; max-height:380px;}
+	.grad-line p {font-size:12px;}
+}
